@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+int n,i,a[100],f;
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+    if(a[i]<n)
+    {
+        f=1;
+    }
+    else
+    {
+        f=0;
+        break;
+    }
+}
+if(f==1)
+{
+    printf("YES");
+}
+else
+{
+    printf("NO");
+}
+}
