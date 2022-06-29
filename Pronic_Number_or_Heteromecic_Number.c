@@ -2,10 +2,9 @@
 #include<math.h>
 int main()
 {
-	int n,k,i,s=0;
-	k=sqrt(n);
+	int n,i,s=0;
 	scanf("%d",&n);
-	for(i=0;i<n;i++)
+	for(i=0;i<n/2;i++)
 	{
 		if(n==i*(i+1))
 		{
