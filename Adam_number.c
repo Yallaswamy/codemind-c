@@ -10,19 +10,13 @@ int main()
         rev=rev*10+r;
         n=n/10;
     }
-    //printf(" rev==%d
-",rev);
-    //printf(" d==%d
-",d);
     rd=rev*rev;
-   // printf(" rd==%d",rd);
     while(rd>0)
     {
-        m=rd%10;//441
+        m=rd%10;
        p=p*10+m;
        rd=rd/10;
     }
-   // printf("p==%d",p);
    if(d==p)
     {
         printf("True");
