@@ -1,3 +1,5 @@
+
+
 #include<stdio.h>
 int main()
 {
@@ -14,7 +16,7 @@ int main()
     {
         for(j=0;j<b;j++)
         {
-            if(i==j || i==b-1-j)
+            if(i==j || i+j==b-1)
             {
                 s=s+ar[i][j];
             }
